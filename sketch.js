@@ -68,7 +68,7 @@ function draw() {
   
  
 }
-function keyPressed(){
+function keyPressed(upArrow){
 if(keyCode===38){
 Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-730,y:0});
 }
